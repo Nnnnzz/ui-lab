@@ -1,22 +1,40 @@
 {
   "pizza": {
-    "id": 25,
-    "name": "Lab Pizza 20261105-141414",
+    "id": 31658,
+    "name": "Lab Pizza 20261105-225217",
     "dough": {
-      "ID": 2,
-      "name": "Thick",
-      "caloriesPerSlice": 200
+      "ID": 3,
+      "name": "Stuffed",
+      "caloriesPerSlice": 300
     },
     "ingredients": [
       {
-        "ID": 1,
-        "name": "Extra virgin olive oil",
+        "ID": 36,
+        "name": "Broccoli",
         "caloriesPerSlice": 50,
         "vegetarian": true
       },
       {
-        "ID": 5,
-        "name": "Roma tomatoes",
+        "ID": 39,
+        "name": "Fresh basil",
+        "caloriesPerSlice": 25,
+        "vegetarian": true
+      },
+      {
+        "ID": 37,
+        "name": "Caramelized onions",
+        "caloriesPerSlice": 50,
+        "vegetarian": true
+      },
+      {
+        "ID": 2,
+        "name": "Olive oil",
+        "caloriesPerSlice": 100,
+        "vegetarian": true
+      },
+      {
+        "ID": 4,
+        "name": "Bianco di Nizza tomatoes",
         "caloriesPerSlice": 50,
         "vegetarian": true
       },
@@ -27,26 +45,20 @@
         "vegetarian": true
       },
       {
-        "ID": 37,
-        "name": "Caramelized onions",
-        "caloriesPerSlice": 50,
-        "vegetarian": true
-      },
-      {
-        "ID": 21,
-        "name": "Roasted red peppers",
-        "caloriesPerSlice": 50,
-        "vegetarian": true
-      },
-      {
-        "ID": 24,
-        "name": "Ricotta cheese",
+        "ID": 22,
+        "name": "Feta cheese",
         "caloriesPerSlice": 100,
+        "vegetarian": true
+      },
+      {
+        "ID": 26,
+        "name": "Zucchini",
+        "caloriesPerSlice": 50,
         "vegetarian": true
       }
     ],
     "tool": "Pizza cutter"
   },
-  "calories": 450,
+  "calories": 575,
   "vegetarian": true
 }
