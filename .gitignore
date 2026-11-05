@@ -1,0 +1,10 @@
+target/
+.venv/
+node_modules/
+__pycache__/
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
