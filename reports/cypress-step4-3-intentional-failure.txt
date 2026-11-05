@@ -1,0 +1,83 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        16.2.1                                                                         │
+  │ Browser:        Electron 146 (headless) (deprecated)                                           │
+  │ Node Version:   v26.10.0 (/opt/homebrew/Cellar/node/26.10.0_2/bin/node)                        │
+  │ Specs:          1 found (web-form.cy.js)                                                       │
+  │ Searched:       e2e/web-form.cy.js                                                             │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Warning: The Electron browser is deprecated as a test browser and will be removed in a future version of Cypress.
+
+Switch to Chrome or another installed browser to avoid a breaking change when you upgrade.
+
+Read more about supported browsers: https://on.cypress.io/launching-browsers
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Running:  web-form.cy.js                                                                  (1 of 1)
+
+
+  Selenium practice web form
+    1) fills the form and checks the received page
+
+
+  0 passing (12s)
+  1 failing
+
+  1) Selenium practice web form
+       fills the form and checks the received page:
+
+      Timed out retrying after 10000ms
+      + expected - actual
+
+      -'Web form'
+      +'Web Form'
+
+      at Context.eval (webpack://ui-lab-cypress/./e2e/web-form.cy.js:4:15)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     12 seconds                                                                       │
+  │ Spec Ran:     web-form.cy.js                                                                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /Users/pongsakornprasertsrisiri/Documents/ITDS362_Software Quality Assurance and    (2560x1440)
+      Testing/ui-lab/cypress/screenshots/web-form.cy.js/Selenium practice web form --
+      fills the form and checks the received page (failed).png
+
+
+  (Video)
+
+  -  Video output: /Users/pongsakornprasertsrisiri/Documents/ITDS362_Software Quality Assurance and Testing/ui-lab/cypress/videos/web-form.cy.js.mp4
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  web-form.cy.js                           00:12        1        -        1        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 1 failed (100%)                     00:12        1        -        1        -        -

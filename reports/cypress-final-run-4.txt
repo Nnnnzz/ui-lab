@@ -1,0 +1,130 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        16.2.1                                                                         │
+  │ Browser:        Chrome 156 (headless)                                                          │
+  │ Node Version:   v26.10.0 (/opt/homebrew/Cellar/node/26.10.0_2/bin/node)                        │
+  │ Specs:          3 found (qp01.cy.js, waits.cy.js, web-form.cy.js)                              │
+  │ Searched:       e2e/**/*.cy.js                                                                 │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Running:  qp01.cy.js                                                                      (1 of 3)
+
+
+  QP-01 — A custom pizza reaches the admin list
+    ✓ keeps restrictions, blocks rating without login, and appears in admin (20160ms)
+
+
+  1 passing (20s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     20 seconds                                                                       │
+  │ Spec Ran:     qp01.cy.js                                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /Users/pongsakornprasertsrisiri/Documents/ITDS362_Software Quality Assurance and     (1000x662)
+      Testing/ui-lab/cypress/screenshots/qp01.cy.js/qp01-admin-success.png
+
+
+  (Video)
+
+  -  Video output: /Users/pongsakornprasertsrisiri/Documents/ITDS362_Software Quality Assurance and Testing/ui-lab/cypress/videos/qp01.cy.js.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Running:  waits.cy.js                                                                     (2 of 3)
+
+
+  Explicit retry-based waits
+    ✓ waits for the asynchronous box to appear (1155ms)
+
+
+  1 passing (2s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 second                                                                         │
+  │ Spec Ran:     waits.cy.js                                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: /Users/pongsakornprasertsrisiri/Documents/ITDS362_Software Quality Assurance and Testing/ui-lab/cypress/videos/waits.cy.js.mp4
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Running:  web-form.cy.js                                                                  (3 of 3)
+
+
+  Selenium practice web form
+    ✓ fills the form and checks the received page (1180ms)
+
+
+  1 passing (2s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 second                                                                         │
+  │ Spec Ran:     web-form.cy.js                                                                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Video output: /Users/pongsakornprasertsrisiri/Documents/ITDS362_Software Quality Assurance and Testing/ui-lab/cypress/videos/web-form.cy.js.mp4
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  qp01.cy.js                               00:20        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  waits.cy.js                              00:01        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  web-form.cy.js                           00:01        1        1        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:23        3        3        -        -        -
