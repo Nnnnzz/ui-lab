@@ -63,27 +63,11 @@ describe('QP-01 — A custom pizza reaches the admin list', () => {
     cy.get('#password').should('be.visible').and('have.value', 'admin');
     cy.get('button[type=submit]').click();
 
-    // Allow the shared site to complete its sign-in request before checking the page.
-    cy.wait(2000);
-    cy.get('body').then(($body) => {
-      if (!$body.text().includes('Latest pizza recommendations')) {
-        cy.reload();
-        cy.get('#username').should('be.visible').and('have.value', 'admin');
-        cy.get('#password').should('be.visible').and('have.value', 'admin');
-        cy.get('button[type=submit]').click();
-        cy.wait(2000);
-      }
-    });
-
-    cy.contains('Latest pizza recommendations', { timeout: 15000 }).should('be.visible');
-    cy.wait(1500);
-    cy.get('body').then(($body) => {
-      if (!$body.text().includes(pizzaName)) {
-        // Refresh once to read the latest server-side recommendations after creation.
-        cy.reload();
-      }
-    });
-    cy.contains(pizzaName, { timeout: 20000 }).should('be.visible');
+    // Verify the authenticated admin page by waiting for the created pizza itself.
+    // The shared site may render the recommendations heading asynchronously,
+    // so the test should assert the actual business result instead of a page heading.
+    cy.location('pathname').should('eq', '/admin');
+    cy.contains(pizzaName, { timeout: 30000 }).should('be.visible');
     cy.get('@qp01Response').then((body) => {
       cy.contains(pizzaName).closest('li').should('contain.text', body.pizza.tool);
       cy.writeFile('evidence/qp01-summary.json', {
