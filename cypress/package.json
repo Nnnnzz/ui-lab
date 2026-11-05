@@ -1,0 +1,12 @@
+{
+  "name": "ui-lab-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:e2e": "cypress run --browser chrome",
+    "test:e2e:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "16.2.1"
+  }
+}

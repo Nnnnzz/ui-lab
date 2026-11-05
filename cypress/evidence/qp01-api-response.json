@@ -1,0 +1,52 @@
+{
+  "pizza": {
+    "id": 25,
+    "name": "Lab Pizza 20261105-141414",
+    "dough": {
+      "ID": 2,
+      "name": "Thick",
+      "caloriesPerSlice": 200
+    },
+    "ingredients": [
+      {
+        "ID": 1,
+        "name": "Extra virgin olive oil",
+        "caloriesPerSlice": 50,
+        "vegetarian": true
+      },
+      {
+        "ID": 5,
+        "name": "Roma tomatoes",
+        "caloriesPerSlice": 50,
+        "vegetarian": true
+      },
+      {
+        "ID": 7,
+        "name": "Mozzarella di bufala",
+        "caloriesPerSlice": 150,
+        "vegetarian": true
+      },
+      {
+        "ID": 37,
+        "name": "Caramelized onions",
+        "caloriesPerSlice": 50,
+        "vegetarian": true
+      },
+      {
+        "ID": 21,
+        "name": "Roasted red peppers",
+        "caloriesPerSlice": 50,
+        "vegetarian": true
+      },
+      {
+        "ID": 24,
+        "name": "Ricotta cheese",
+        "caloriesPerSlice": 100,
+        "vegetarian": true
+      }
+    ],
+    "tool": "Pizza cutter"
+  },
+  "calories": 450,
+  "vegetarian": true
+}
